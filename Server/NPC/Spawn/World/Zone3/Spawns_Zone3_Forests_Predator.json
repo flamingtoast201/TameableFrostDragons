@@ -1,0 +1,32 @@
+{
+  "Environments": [
+    "Env_Zone3_Forests"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "IceAndSnow",
+      "Id": "Spi_Dragon_Frost_Tameable",
+      "Flock": "Group_Medium"
+    },
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil_NoSnow",
+      "Id": "Bear_Grizzly"
+    },
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil_NoSnow",
+      "Id": "Snake_Cobra"
+    },
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil_NoSnow",
+      "Id": "Fox"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

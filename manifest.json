@@ -1,0 +1,26 @@
+{
+  "Group": "Spicer, Alexander C",
+  "Name": "TameableFrostDragon",
+  "Version": "1.0.0",
+  "Description": "A tameable and eventually flyable Frost Dragon.",
+  "Authors": [
+    {
+      "Name": "flamingtoast201",
+      "Email": "alexander.spicer@hotmail.com",
+      "Url": "spicergames.com"
+    },
+    {
+      "Name": "Little Art (Sound Effects)",
+      "Email": "Unkown",
+      "Url": "https://www.fab.com/listings/1ed5e118-7250-4f09-a453-a0b38181b230"
+    }
+  ],
+  "Website": "spicergames.com",
+  "ServerVersion": "2026.02.19-1a311a592",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

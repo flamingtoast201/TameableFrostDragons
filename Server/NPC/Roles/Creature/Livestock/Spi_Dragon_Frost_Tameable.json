@@ -1,0 +1,43 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Animal_Neutral",
+  "Modify": {
+    "Appearance": "Spi_Frost_Dragon_Tameable",
+    "AttitudeGroup": "PredatorsBig",
+    "FlockArray": [
+      "Frost_Dragon"
+    ],
+    "AttractiveItemSet": [
+      "Plant_Crop_Carrot_Item"
+    ],
+    "DropList": "Spi_Drop_Dragon",
+    "AttractiveItemSetParticles": "Want_Food_Carrot",
+    "MaxHealth": 400,
+    "MaxSpeed": 20,
+    "ViewRange": 45,
+    "ViewSector": 350,
+    "HearingRange": 24,
+    "AlertedRange": 40,
+    "AlertedActionRange": 16,
+    "AbsoluteDetectionRange": 4,
+    "AttackWhenStartled": true,
+    "Attack": "Root_NPC_Attack_Melee",
+    "ProduceItem": "Ingredient_Poop",
+    "IsTameable": true,
+    "IsMountable": true,
+    "TameRoleChange": "Spi_Tamed_Dragon_Frost",
+    "WanderRadius": 8,
+    "IsMemory": true,
+    "MemoriesNameOverride": "Tameable Frost Dragon",
+    "MemoriesCategory": "Mythic",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Spi_Dragon_Frost_Tameable.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

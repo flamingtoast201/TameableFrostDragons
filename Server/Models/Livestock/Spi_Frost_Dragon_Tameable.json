@@ -1,0 +1,419 @@
+{
+  "Model": "NPC/Elemental/Dragon_Frost/Models/Model.blockymodel",
+  "Texture": "NPC/Elemental/Dragon_Frost/Models/Texture.png",
+  "EyeHeight": 3.5,
+  "HitBox": {
+    "Max": {
+      "X": 1.5,
+      "Y": 4,
+      "Z": 1.5
+    },
+    "Min": {
+      "X": -1.5,
+      "Y": 0,
+      "Z": -1.5
+    }
+  },
+  "MinScale": 1.25,
+  "MaxScale": 1.25,
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 60,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Default/Spawn.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false,
+          "Speed": 1
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Walk.blockyanim"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Run.blockyanim"
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.2,
+          "Looping": false,
+          "Speed": 0.75
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.2,
+          "Looping": false,
+          "Speed": 0.75
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.2,
+          "Looping": false,
+          "Speed": 0.75
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Fly_Idle.blockyanim",
+          "BlendingDuration": 0.2,
+          "Speed": 1.5
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Fly.blockyanim",
+          "BlendingDuration": 0.2
+        },
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Glide.blockyanim",
+          "BlendingDuration": 0.2
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Glide.blockyanim",
+          "BlendingDuration": 0.2
+        },
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Fly.blockyanim",
+          "BlendingDuration": 0.2
+        }
+      ]
+    },
+    "FlyBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Fly/Fly_Backward.blockyanim"
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Death.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Sleep.blockyanim",
+          "SoundEventId": "SFX_Dragon_Sleep"
+        }
+      ]
+    },
+    "Howl": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Howl.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "SniffAir": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Howl.blockyanim",
+          "Looping": false,
+          "Speed": 2.0
+        }
+      ]
+    },
+    "Sit": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Sit.blockyanim"
+        }
+      ]
+    },
+    "Greet": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Greet.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Track": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Track.blockyanim"
+        }
+      ]
+    },
+    "Threaten": {
+      "Animations": [
+        {
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Threaten.blockyanim",
+          "SoundEventId": "SFX_Wolf_Alerted"
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk_Backward.blockyanim"
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch_Walk.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch_Walk_Backward.blockyanim",
+          "BlendingDuration": 0.1
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Alerted.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Horse_Alerted"
+        }
+      ]
+    },
+    "Curious": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Curious.blockyanim"
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Laydown.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Wake.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Horse_Wake"
+        }
+      ]
+    },
+    "Eat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Eat.blockyanim"
+        }
+      ]
+    },
+    "LookAround": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Look_Around.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Neigh": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Neigh.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Idle.blockyanim"
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim.blockyanim"
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Backward.blockyanim"
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Fast.blockyanim"
+        }
+      ]
+    },
+    "SwimJump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Jump.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Sink.blockyanim"
+        }
+      ]
+    },
+    "SwimFloat": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Float.blockyanim"
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim.blockyanim"
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Backward.blockyanim"
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Swim/Swim_Fast.blockyanim"
+        }
+      ]
+    },
+    "FluidIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Idle.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk_Backward.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "FluidRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Run.blockyanim",
+          "Speed": 0.6
+        }
+      ]
+    },
+    "GreetAnimation": {
+      "Animations": [
+        {
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Idle.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    }
+  }
+}
