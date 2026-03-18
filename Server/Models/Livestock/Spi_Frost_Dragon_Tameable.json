@@ -14,8 +14,8 @@
       "Z": -1.5
     }
   },
-  "MinScale": 1.25,
-  "MaxScale": 1.25,
+  "MinScale": 1.1,
+  "MaxScale": 1.1,
   "Camera": {
     "Pitch": {
       "AngleRange": {
@@ -47,21 +47,26 @@
           "Animation": "NPC/Beast/Wolf/Animations/Default/Spawn.blockyanim",
           "BlendingDuration": 0,
           "Looping": false,
-          "Speed": 1
+          "Speed": 1,
+          "SoundEventId": "SFX_SpiDragon_Roar"
         }
       ]
     },
     "Walk": {
       "Animations": [
         {
-          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Walk.blockyanim"
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Walk.blockyanim",
+          "SoundEventId": "SFX_SpiDragon_Footstep",
+          "PassiveLoopCount": 1
         }
       ]
     },
     "Run": {
       "Animations": [
         {
-          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Run.blockyanim"
+          "Animation": "NPC/Elemental/Dragon_Frost/Animations/Run.blockyanim",
+          "SoundEventId": "SFX_SpiDragon_Footstep",
+          "PassiveLoopCount": 1
         }
       ]
     },
@@ -148,7 +153,8 @@
         {
           "Animation": "NPC/Elemental/Dragon_Frost/Animations/Hurt.blockyanim",
           "BlendingDuration": 0.1,
-          "Looping": false
+          "Looping": false,
+          "SoundEventId": "SFX_SpiDragon_Hurt"
         }
       ]
     },
@@ -172,7 +178,8 @@
       "Animations": [
         {
           "Animation": "NPC/Beast/Wolf/Animations/Flavor/Howl.blockyanim",
-          "Looping": false
+          "Looping": false,
+          "SoundEventId": "SFX_SpiDragon_Roar"
         }
       ]
     },
@@ -188,7 +195,8 @@
     "Sit": {
       "Animations": [
         {
-          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Sit.blockyanim"
+          "Animation": "NPC/Beast/Wolf/Animations/Flavor/Sit.blockyanim",
+          "SoundEventId": "SFX_SpiDragon_Footstep"
         }
       ]
     },
@@ -196,7 +204,8 @@
       "Animations": [
         {
           "Animation": "NPC/Beast/Wolf/Animations/Flavor/Greet.blockyanim",
-          "Looping": false
+          "Looping": false,
+          "SoundEventId": "SFX_SpiDragon_Alerted"
         }
       ]
     },
@@ -218,7 +227,8 @@
     "WalkBackward": {
       "Animations": [
         {
-          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk_Backward.blockyanim"
+          "Animation": "NPC/Livestock/Horse/Animations/Default/Walk_Backward.blockyanim",
+          "SoundEventId": "SFX_SpiDragon_Footstep"
         }
       ]
     },
@@ -234,7 +244,8 @@
       "Animations": [
         {
           "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch_Walk.blockyanim",
-          "BlendingDuration": 0.1
+          "BlendingDuration": 0.1,
+          "SoundEventId": "SFX_SpiDragon_Footstep"
         }
       ]
     },
@@ -242,7 +253,8 @@
       "Animations": [
         {
           "Animation": "NPC/Livestock/Horse/Animations/Default/Crouch_Walk_Backward.blockyanim",
-          "BlendingDuration": 0.1
+          "BlendingDuration": 0.1,
+          "SoundEventId": "SFX_SpiDragon_Footstep"
         }
       ]
     },
@@ -251,14 +263,15 @@
         {
           "Animation": "NPC/Livestock/Horse/Animations/Default/Alerted.blockyanim",
           "Looping": false,
-          "SoundEventId": "SFX_Horse_Alerted"
+          "SoundEventId": "SFX_SpiDragon_Alerted"
         }
       ]
     },
     "Curious": {
       "Animations": [
         {
-          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Curious.blockyanim"
+          "Animation": "NPC/Livestock/Horse/Animations/Flavor/Curious.blockyanim",
+          "SoundEventId": "SFX_SpiDragon_Alerted"
         }
       ]
     },
@@ -275,7 +288,7 @@
         {
           "Animation": "NPC/Livestock/Horse/Animations/Default/Wake.blockyanim",
           "Looping": false,
-          "SoundEventId": "SFX_Horse_Wake"
+          "SoundEventId": "SFX_SpiDragon_Roar"
         }
       ]
     },
@@ -298,7 +311,8 @@
       "Animations": [
         {
           "Animation": "NPC/Livestock/Horse/Animations/Flavor/Neigh.blockyanim",
-          "Looping": false
+          "Looping": false,
+          "SoundEventId": "SFX_SpiDragon_Roar"
         }
       ]
     },
@@ -411,7 +425,8 @@
         {
           "Animation": "NPC/Livestock/Horse/Animations/Default/Idle.blockyanim",
           "Looping": false,
-          "Speed": 1.0
+          "Speed": 1.0,
+          "SoundEventId": "SFX_SpiDragon_Roar"
         }
       ]
     }
