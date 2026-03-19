@@ -10,12 +10,12 @@ The primary goal of this mod is to introduce **fully tameable and rideable Drago
 **Download Links**
 
 If you want, you can **view the source code before downloading**! This GitHub link provides direct access to the latest code, so you can see exactly what’s included or what I’m actively working on. Some of this may even be ahead of the stable builds… shhh 🤫
-Spicer Games
-[https://spicergames.com/mods](https://spicergames.com/hytale-dragon-riders-mod)
-Curse Forge
-[https://legacy.curseforge.com/hytale/mods/dragon-rider](https://legacy.curseforge.com/hytale/mods/dragon-rider)
-Google Drive
-[https://drive.google.com/drive/folders/1HGYOs84lfwwP3snehPVLq-aBgK3pTo0R?usp=sharing](https://drive.google.com/drive/folders/1HGYOs84lfwwP3snehPVLq-aBgK3pTo0R)
+**Spicer Games**<br>
+[https://spicergames.com/mods](https://spicergames.com/hytale-dragon-riders-mod)<br>
+**Curse Forge**<br>
+[https://legacy.curseforge.com/hytale/mods/dragon-rider](https://legacy.curseforge.com/hytale/mods/dragon-rider)<br>
+**Google Drive**<br>
+[https://drive.google.com/drive/folders/1HGYOs84lfwwP3snehPVLq-aBgK3pTo0R?usp=sharing](https://drive.google.com/drive/folders/1HGYOs84lfwwP3snehPVLq-aBgK3pTo0R)<br>
 
 ---
 
