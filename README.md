@@ -5,11 +5,25 @@
 ## Primary Goal
 The primary goal of this mod is to introduce **fully tameable and rideable Dragons**, allowing players to command and traverse the world atop these legendary apex creatures.
 
-If you want, you can **view the source code before downloading**! This GitHub link provides direct access to the latest code, so you can see exactly what’s included or what I’m actively working on. Some of this may even be ahead of the stable builds… shhh 🤫
+---
 
-[View On CurseForge Mods](https://github.com/flamingtoast201/TameableFrostDragons)
-[View On Youtube](https://youtube.com/shorts/2NLpkk9D-a8)
-[View On CurseForge Mods](https://github.com/flamingtoast201/TameableFrostDragons)
+**Download Links**
+
+If you want, you can **view the source code before downloading**! This GitHub link provides direct access to the latest code, so you can see exactly what’s included or what I’m actively working on. Some of this may even be ahead of the stable builds… shhh 🤫
+Spicer Games
+[https://spicergames.com/mods](https://spicergames.com/hytale-dragon-riders-mod)
+Curse Forge
+[https://legacy.curseforge.com/hytale/mods/dragon-rider](https://legacy.curseforge.com/hytale/mods/dragon-rider)
+Google Drive
+[https://drive.google.com/drive/folders/1HGYOs84lfwwP3snehPVLq-aBgK3pTo0R?usp=sharing](https://drive.google.com/drive/folders/1HGYOs84lfwwP3snehPVLq-aBgK3pTo0R)
+
+---
+
+**Video Showcase**
+
+Youtube Showcase
+[https://youtube.com/shorts/2NLpkk9D-a8](https://www.youtube.com/shorts/2NLpkk9D-a8)
+
 ---
 
 ## Current Features ✅
