@@ -9,7 +9,7 @@ The primary goal of this mod is to introduce **fully tameable and rideable Drago
 
 **Download Links**
 
-If you want, you can **view the source code before downloading**! This GitHub link provides direct access to the latest code, so you can see exactly what’s included or what I’m actively working on. Some of this may even be ahead of the stable builds… shhh 🤫
+If you want, you can **view the source code before downloading**! This GitHub link provides direct access to the latest code, so you can see exactly what’s included or what I’m actively working on. Some of this may even be ahead of the stable builds… shhh 🤫<br>
 **Spicer Games**<br>
 [https://spicergames.com/mods](https://spicergames.com/hytale-dragon-riders-mod)<br>
 **Curse Forge**<br>
